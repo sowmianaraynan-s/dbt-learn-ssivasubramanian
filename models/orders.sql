@@ -21,7 +21,7 @@ select
 orders.customer_id,
 orders.order_id,
 orders.order_date,
-orders.status,
+orders.status as order_status,
 payment.amount
 
 from
